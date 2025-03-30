@@ -2,9 +2,9 @@
     <div class="grid grid-rows-1 gap-8">
         <div class="font-medium">
             <h1 class="leading-12 md:leading-18 font-semibold text-4xl md:text-5xl lg:text-6xl md:text-left">
-                Find a nearby Hospital,<br>
+                Find a nearby Hospital<br>
                 Get <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
-                    <span class="relative text-white dark:text-gray-950">fastly</span>
+                    <span class="relative text-white">fastly</span>
                 </span> your appointment
                 <br> and receive <span class="underline decoration-pink-500 font-bold">your note</span> ⚡
             </h1>
