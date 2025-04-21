@@ -40,8 +40,8 @@
 
     <!-- Bouton de connexion (toujours visible) -->
     <div>
-        <a href="#" class="bg-pink-500 text-white py-2 px-8 text-sm md:px-6 md:py-2 md:text-base rounded-lg shadow-md hover:bg-pink-600 transition duration-300">
-            Login
+        <a href="/{{ Auth::check() ? 'logout' : 'login' }}" class="bg-pink-500 text-white py-2 px-8 text-sm md:px-6 md:py-2 md:text-base rounded-lg shadow-md hover:bg-pink-600 transition duration-300">
+            {{ Auth::check() ? 'Logout' : 'Login' }}
         </a>
     </div>
 </nav>
