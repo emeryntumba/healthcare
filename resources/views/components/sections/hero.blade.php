@@ -40,7 +40,7 @@
             <a href="" class="border border-pink-500 py-2 px-4 rounded-xl text-lg">Login</a>
         </div>
     </div>
-    <div class="hidden md:block">
+    <div class="hidden lg:block">
         <img src="{{asset('img/hero.png')}}" alt="hero image" class="size-96 rounded-2xl">
     </div>
 </div>
