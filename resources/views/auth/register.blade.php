@@ -3,7 +3,7 @@
 @section('content')
     <div class="flex flex-col items-center justify-center h-screen">
         <h1 class="text-4xl font-bold mb-6">Register</h1>
-        <form method="POST" action="{{ route('register') }}" class="w-full max-w-sm">
+        <form method="POST" action="{{ route('register') }}" class="w-full max-w-md shadow-2xl px-10 py-5">
             @csrf
             <x-forms.input name="name" label="Name" type="text" required autofocus />
             <x-forms.input name="email" label="Email" type="email" required />
