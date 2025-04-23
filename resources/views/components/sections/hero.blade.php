@@ -41,6 +41,6 @@
         </div>
     </div>
     <div class="hidden lg:block">
-        <img src="{{asset('img/hero.png')}}" alt="hero image" class="size-96 rounded-2xl">
+        <img src="{{asset('img/hero.webp')}}" alt="hero image" class="size-96 rounded-2xl">
     </div>
 </div>
