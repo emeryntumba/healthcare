@@ -5,34 +5,17 @@
         <h1 class="text-4xl font-bold mb-6">Login</h1>
         <form method="POST" action="{{ route('login') }}" class="w-full max-w-sm">
             @csrf
-            <div class="mb-4">
-                <label for="email" class="block  text-sm font-bold mb-2">Email:</label>
-                <input type="email" name="email" id="email" required autofocus
-                       class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('email') border-red-500 @enderror"
-                       value="{{ old('email') }}">
-                @error('email')
-                <p class="text-red-500 text-xs italic mt-2">{{ $message }}</p>
-                @enderror
-            </div>
-            <div class="mb-6">
-                <label for="password" class="block  text-sm font-bold mb-2">Password:</label>
-                <input type="password" name="password" id="password" required
-                       class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('password') border-red-500 @enderror">
-                @error('password')
-                <p class="text-red-500 text-xs italic mt-2">{{ $message }}</p>
-                @enderror
-            </div>
+            <x-forms.input name="email" label="Email" type="email" required autofocus />
+            <x-forms.input name="password" label="Password" type="password" required />
             <div class="flex items-center justify-between">
-                <button type="submit"
-                        class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                    Login
-                </button>
+                <x-forms.button label="Login" type="submit" />
                 <a href="{{ url('/password.request') }}"
                    class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800">
                     Forgot Password?
                 </a>
             </div>
         </form>
+        
         <div class="mt-4">
             <p class="text-gray-600 text-sm">Don't have an account? <a href="{{ url('/register') }}"  class="text-pink-500 hover:text-pink-700">Register</a></p>
         </div>
