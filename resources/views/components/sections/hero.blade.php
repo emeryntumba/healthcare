@@ -37,7 +37,7 @@
         </ul>
         <div class="flex flex-col md:flex-row gap-4 ">
             <a href="" class="bg-pink-500 py-2 px-4 rounded-xl text-white text-lg">Make an appointement</a>
-            <a href="" class="border border-pink-500 py-2 px-4 rounded-xl text-lg">Login</a>
+            <a href="" class="border border-pink-500 py-2 md:px-20 rounded-xl text-lg">Get Started</a>
         </div>
     </div>
     <div class="hidden lg:block">
