@@ -41,8 +41,9 @@
                 <a href="" class="border border-pink-500 py-2 md:px-20 rounded-xl text-lg">Get Started</a>
             </div>
         </div>
-        <div class="hidden lg:block">
-            <img src="{{asset('img/hero.webp')}}" alt="hero image" class="size-96 rounded-2xl">
+        <div class="hidden lg:block relative">
+            <div class="absolute inset-0 bg-white opacity-50 blur-3xl rounded-2xl"></div>
+            <img src="{{asset('img/hero.webp')}}" alt="hero image" class="size-96 rounded-2xl relative">
         </div>
    </div>
    <div class="lg:max-w-xl mx-auto max-w-sm mt-10 lg:mt-20">
