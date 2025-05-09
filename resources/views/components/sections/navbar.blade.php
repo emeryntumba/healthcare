@@ -1,4 +1,4 @@
-<nav class="flex items-center justify-between py-4 shadow-md rounded-2xl">
+<nav class="flex items-center justify-between p-4 shadow-md rounded-2xl">
     <!-- Menu mobile (toggle) -->
     <div class="lg:hidden">
         <button id="menu-toggle" class="textbase-content focus:outline-none">
