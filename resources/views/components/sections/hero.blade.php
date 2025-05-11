@@ -1,4 +1,4 @@
-<div class="h-screen md:h-auto mt-2 md:mt-16" id="hero">
+<div class="h-screen  mt-2 md:mt-16" id="hero">
    <div class="flex flex-col items-center text-center md:flex-row md:justify-between">
         <div class="grid grid-rows-1 gap-8">
             <div class="font-medium">
@@ -36,9 +36,9 @@
                     Privacy and confidentiality
                 </li>
             </ul>
-            <div class="flex flex-col md:flex-row gap-4 ">
-                <a href="" class="bg-pink-500 py-2 px-4 rounded-xl text-white text-lg">Make an appointement</a>
-                <a href="" class="border border-pink-500 py-2 md:px-20 rounded-xl text-lg">Get Started</a>
+            <div class="flex justify-between rounded-xl border-3 border-pink-500 md:w-2/3">
+                <input type="text" class="w-2/3 px-2 md:px-5" placeholder="Find an hospital next to you">
+                <a href="" class="bg-pink-500 py-2 rounded-xl text-white w-1/3">Search</a>
             </div>
         </div>
         <div class="hidden lg:block relative">
