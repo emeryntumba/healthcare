@@ -1,5 +1,4 @@
 <div>
-    
     <h1 class="text-4xl font-semibold">How it works</h1>
     <div class="flex flex-row justify-between bg-base-100 shadow-sm rounded-2xl mt-10">
     <div class="m-5 flex flex-col gap-4">
@@ -11,9 +10,10 @@
         </ul>
     </div>
 
-  <figure class="border-4 border-pink-500 w-1/2  rounded-2xl">
+  <div class="border-4 border-pink-500 w-1/2  rounded-2xl p-1" id="map-root">
 
-  </figure>
+  </div>
+
 </div>
 
 </div>

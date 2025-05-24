@@ -1,9 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import MapComponent from './components/MapComponent';
+import Map from './components/Map';
+import 'leaflet/dist/leaflet.css';
 
-const el = document.getElementById('map-component');
+const el = document.getElementById('map-root');
 if (el) {
   const root = createRoot(el);
-  root.render(<MapComponent />);
+  root.render(<Map />);
 }
