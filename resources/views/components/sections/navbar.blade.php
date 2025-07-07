@@ -27,12 +27,12 @@
             </a>
         </li>
         <li>
-            <a href="{{ url('/appointment') }}" class="relativetransition duration-300 after:block after:h-1 after:bg-pink-500 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
+            <a href="{{ url('/appointment') }}" class="relative transition duration-300 after:block after:h-1 after:bg-pink-500 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
                 Find an hospital
             </a>
         </li>
         <li>
-            <a href="{{ url('/department') }}" class="relativetransition duration-300 after:block after:h-1 after:bg-pink-500 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
+            <a href="{{ url('/department') }}" class="relative transition duration-300 after:block after:h-1 after:bg-pink-500 after:w-0 after:transition-all after:duration-300 hover:after:w-full">
                 Register an hospital
             </a>
         </li>
